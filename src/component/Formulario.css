@@ -1,0 +1,57 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 15px;
+}
+div{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://concepto.de/wp-content/uploads/2023/01/arbol-de-la-vida-Yggdrasil-e1673720196607.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conten{
+  border: solid 2px #d10d0d;
+  width: 300px;
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  backdrop-filter: blur(8px);
+}
+h1{
+    background: linear-gradient(90deg, #00ffff,#ff00c3);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+}
+input-box{
+    position: relative;
+    width: 210px;
+    margin: 20px 30;
+}
+input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: rgb(255, 14, 14);
+    pointer-events: none;
+    transition: .5%;
+}
+button {
+    width: 30%;
+    height: 40px;
+    background: #ff07d6;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
