@@ -1,0 +1,34 @@
+.wrapper{
+    margin: 0;
+    padding: 0;
+
+
+   
+
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.log{
+    font-size: 45px;
+
+    
+}
+.label1{
+    position: relative;
+    right: 45px;}
+.label2{
+    position: relative;
+    right: 30px;
+
+}
+.input1{
+    position: relative;
+    left: 10px;
+}
+
